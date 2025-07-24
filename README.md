@@ -1,0 +1,1 @@
+# NyayaBot-Cross-Lingual-QA-system-for-Legal-Terms
