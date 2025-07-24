@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'legal_docs',
     'api',
+    'utilities',
 ]
 
 MIDDLEWARE = [
