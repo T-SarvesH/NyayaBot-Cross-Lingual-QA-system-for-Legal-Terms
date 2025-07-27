@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'legal_docs',
     'api',
     'utilities',
+    'api',
 ]
 
 MIDDLEWARE = [

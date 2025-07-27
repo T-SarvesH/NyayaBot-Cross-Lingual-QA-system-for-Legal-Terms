@@ -10,37 +10,13 @@ import fitz, pymupdf
 nltk.download('punkt', quiet=True)
 
 def word_tokenizer(input: List[str]):
-    
-    for sentence in input:
-        block = word_tokenize(str(sentence))
-        print(block)
-    
-    print()
+    pass
 
 def sentence_tokenizer(input: List[str]):
-
-    for sentence in input:
-        block = sent_tokenize(str(sentence))
-        print(block)
-
-    print()
+    pass
 
 def tokenize_main():
-    pdf = fitz.open('Constitution.pdf')
-    list = []
-
-    for i, page in enumerate(pdf):
-        if(i == 33):
-            for tup in page.get_text("blocks"):
-                list.append(tup[4])
-                print(tup[4])
-
-    for l in list:
-        l.strip()
-    
-    
-    word_tokenizer(list)
-    sentence_tokenizer(list)
+    pass
     
 if __name__ == "__main__":
     tokenize_main()
